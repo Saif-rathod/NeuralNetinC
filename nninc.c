@@ -129,7 +129,7 @@ int main(void)
                 outputLayer[j] = sigmoid(activation);
             }
 
-            printf("Input:%g Output:%g Expected:%g\n", training_inputs[i][0], training_inputs[i][1],
+            printf("Input:%g %g Output:%g Expected:%g\n", training_inputs[i][0], training_inputs[i][1],
                    outputLayer[0], training_outputs[i][0]);
 
             // Backward Pass
