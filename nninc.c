@@ -19,13 +19,13 @@ double init_weights()
     return ((double)rand() / (double)RAND_MAX);
 }
 
-double dSigmoid(double x)
-{ // Derivative of sigmoid
+double dSigmoid(double x) // Derivative of sigmoid
+{ 
     return x * (1.0f - x);
 }
 
-void shuffle(int *array, size_t n)
-{ // Fisher-Yates shuffle
+void shuffle(int *array, size_t n) // Fisher-Yates shuffle
+{ 
     if (n > 1)
     {
 
